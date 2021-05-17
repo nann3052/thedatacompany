@@ -190,11 +190,16 @@ color: #f2f2f2;
   width:30%;
   text-align: center;
   margin: auto;
+  padding:1% 2%;
 }
 .box1, .box2, .box3 {
 background-color: #4777BB;
-width: 60%;
+width: 65%;
 margin: auto;
+display: flex;
+flex-direction: column;
+padding: 1%;
+border-radius: 2%;
 
 }
 
@@ -204,16 +209,21 @@ margin: auto;
   color:white;
   display: flex;
   flex-direction: row;
- 
 
+}
+.video-text {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+.video-text h2 {
+  font-size: 2.2em;
 }
 .video-section p {
-  width: 30%;
-  justify-content: l;
-
+  width:80%;  
 }
 .tdc-video {
-  width:70%; 
+  width:60%; 
   height:400px;
  
 
