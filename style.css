@@ -7,7 +7,7 @@ body {
    width: 95%;
    margin: auto;
    background-color: #fff;
-   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Maven Pro', sans-serif;;
   
 }
 
@@ -160,6 +160,12 @@ color: #f2f2f2;
 
 
 /* Blue boxes */
-.blue-boxes {
-    color:blue;
+.blue-boxes a {
+  text-decoration: none;
+}
+.blue-boxes p {
+    color:white;
+}
+.box1, .box2, .box3 {
+background-color: #1F406E;
 }
