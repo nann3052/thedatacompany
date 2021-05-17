@@ -127,7 +127,7 @@ color: #f2f2f2;
   height: 15px;
   width: 15px;
   margin: 0 7px;
-  background-color: #bbb;
+  background-color: #1F406E;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
@@ -136,7 +136,7 @@ color: #f2f2f2;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #ffffff;
 }
 
 /* Fading animation */
@@ -184,4 +184,16 @@ background-color: #4777BB;
 width: 50%;
 margin: auto;
 
+}
+
+.video-section {
+  background-color: #4777BB;
+}
+.video-section p {
+  width: 50%;
+
+}
+.tdc-video {
+  width:720px; 
+  height:400px;
 }
