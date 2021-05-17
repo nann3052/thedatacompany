@@ -160,12 +160,28 @@ color: #f2f2f2;
 
 
 /* Blue boxes */
+.blue-boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
 .blue-boxes a {
   text-decoration: none;
 }
 .blue-boxes p {
     color:white;
+    text-align: center;
+}
+.blue-boxes img {
+  width:30%;
+  text-align: center;
+  margin: auto;
 }
 .box1, .box2, .box3 {
-background-color: #1F406E;
+background-color: #4777BB;
+width: 50%;
+margin: auto;
+
 }
