@@ -15,16 +15,18 @@ body {
 /* Navigation */
 
 #logo {
-    width: 4%;
+width: 10%;
 margin: auto;
+padding-left: 2%;
 }
 
 nav {
     margin: 1% 0;
 }
 .menu {
+
     float:right;
-    width: 96%;
+    width: 95%;
     text-align: right;
     position:absolute;
     top:4.5%;
@@ -49,7 +51,7 @@ nav {
 }
 
 
-/* Slideshow container */
+/*-- Banner container */
 .slideshow-container {
   max-width: auto;
   position: relative;
@@ -95,10 +97,6 @@ height:95%;
     position:absolute;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
 
 /* Overskrift på Carousel */
 .text {
@@ -192,13 +190,13 @@ color: #f2f2f2;
     color:white;
     text-align: center;
     font-size: 1.5em;
-    padding: 2%;
+    padding: 1%;
 }
 .blue-boxes img {
   width:30%;
   text-align: center;
   margin: auto;
-  padding:1% 2%;
+  padding:2% 2%;
 }
 .box1, .box2, .box3 {
 background-color: #4777BB;
@@ -235,4 +233,49 @@ border-radius: 2%;
   height:400px;
  
 
+}
+
+/* Video graph - how does it work? */
+
+.graph-section {
+  margin: 2% auto;
+  width: 70%;
+}
+.graph-section h2 {
+  font-size: 30px;
+  font-weight: bold;
+text-align: center;
+margin:auto;
+color:#1F406E;
+text-transform: uppercase;
+}
+
+.graph-section p {
+  font-size: 20px;
+  font-weight: 500;
+text-align: center;
+margin:1% auto;
+color:#1F406E;
+text-transform: uppercase;
+}
+
+.graph-video {
+  width: 100%;
+  margin: 2% auto;
+  
+}
+
+/* Bo's statement section */
+.statement-section {
+  width: 100%;
+  height: 400px;
+  background-color: #4777BB;
+  padding: 3%;
+}
+
+.inner-statement {
+  background-color: #f2f2f2;
+  margin: 5% auto;
+  width: 60%;
+  height: 300px;
 }
