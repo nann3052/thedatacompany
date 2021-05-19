@@ -50,6 +50,27 @@ nav {
     font-weight:bold;
 }
 
+/* Back to top */
+.back-to-top {
+  position: fixed; 
+  bottom: 15px; 
+  right: 15px; 
+  z-index: 99; 
+  background-color: #1F406E; 
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.back-to-top a {
+  text-decoration: none;
+  
+}
+
 
 /*-- Banner container */
 .slideshow-container {
