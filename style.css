@@ -24,23 +24,30 @@ nav {
 }
 .menu {
     float:right;
-    width: 90%;
+    width: 96%;
     text-align: right;
     position:absolute;
     top:4.5%;
 }
+.kundeportal {
+  color:#4777BB;
+  font-weight: 900;
+}
+
 .menu a {
     text-transform: uppercase;
     color: grey;
     text-decoration: none;
-    padding: 2%;
+    padding: 1.2%;
     font-size:12px;
+    text-align: right;
 }
 
 .menu a:hover {
     color:#1F406E;
     font-weight:bold;
 }
+
 
 /* Slideshow container */
 .slideshow-container {
@@ -96,7 +103,8 @@ height:95%;
 /* Overskrift på Carousel */
 .text {
   color: #f2f2f2;
-  font-size: 50px;
+  font-size: 40px;
+  font-weight: 800;
   padding: 8px 12px;
   position:absolute;
   top:40%;
@@ -105,7 +113,7 @@ height:95%;
 }
 .read-more {
 color: #f2f2f2;
-  font-size: 30px;
+  font-size: 20px;
   padding: 8px 12px;
   position:absolute;
   top:55%;
