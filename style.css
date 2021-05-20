@@ -323,10 +323,19 @@ text-transform: uppercase;
   height: 300px;
   background-color: #1F406E;
 }
+.top-footer img {
+  width: 20%;
+}
 
 
 .bottom-footer {
   width:100%;
-  height: 100px;
+  height: 50px;
   background-color: #051730;
 }
+.bottom-footer p {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 2% auto;
+}
+
